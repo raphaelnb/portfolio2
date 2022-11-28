@@ -97,6 +97,12 @@ footer {
     row-gap: 30px;
 }
 
+#descricaoTec {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
 .titulo {
     margin-bottom: 56px;
 }
