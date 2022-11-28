@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
+    color: #DEE6DA;
 }
 .wrapper {
     display: flex;
@@ -43,7 +44,7 @@ header {
 }
 
 .conteudoPag {
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 300px;
 
 }
@@ -62,15 +63,39 @@ footer {
     
 }
 
+#pagInicial {
+    margin-top: 200px;
+}
+
+#perfil {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.contato {
+    flex-direction: column;
+    display: flex;
+    row-gap: 20px;
+}
+
 .linksContato {
     display: flex;
     flex-direction: row;
 }
 
-.caixaContato {
+/*.caixaContato {
     border: 1px solid black;
     width: 100px;
     height: 100px;
+}*/
+
+.titulo {
+    margin-bottom: 56px;
+}
+
+p {
+    font-size: 18px;
 }
 
 a {
@@ -80,4 +105,10 @@ a {
 
 a::after {
     text-decoration: none;
+}
+
+img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
 }
