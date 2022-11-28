@@ -1,12 +1,16 @@
-// Link dos projetos
-/*document.getElementById("rocketPay").onclick = function () {
-    window.open("https://rocketpay-ignitelab.vercel.app");
+
+document.getElementById("contatoLinkedin").onclick = function () {
+    window.open("https://www.linkedin.com/in/raphael-brandão-969281225/")
 }
 
-document.getElementById("google").onclick = function () {
-    window.open("https://raphaelnb.github.io/google/");
+document.getElementById("contatoGitHub").onclick = function () {
+    window.open("https://github.com/raphaelnb");
 }
 
-document.getElementById("orcestra").onclick = function () {
-    window.open("https://mariaabritta.github.io/SiteProject/#orcestra");
-}*/
+document.getElementById("githubRodape").onclick = function () {
+    window.open("https://github.com/raphaelnb");
+}
+
+document.getElementById("linkedinRodape").onclick = function () {
+    window.open("https://www.linkedin.com/in/raphael-brandão-969281225/")
+}

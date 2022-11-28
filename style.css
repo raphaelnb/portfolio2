@@ -59,6 +59,10 @@ footer {
     bottom: 0;
     background-color: #333231;
     position: fixed;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
 }
 
 .sobreMim {}
@@ -79,16 +83,17 @@ footer {
     row-gap: 20px;
 }
 
+#formulario {}
+
+.imgContato {
+    width: 80px;
+    height: auto;
+}
+
 .linksContato {
     display: flex;
     flex-direction: row;
 }
-
-/*.caixaContato {
-    border: 1px solid black;
-    width: 100px;
-    height: 100px;
-}*/
 
 .divProjetos {
     margin-bottom: 80px;
@@ -101,6 +106,11 @@ footer {
     display: flex;
     flex-direction: column;
     row-gap: 80px;
+}
+
+.logoRodape {
+    width: 30px;
+    height: auto;
 }
 
 .titulo {
@@ -118,6 +128,10 @@ a {
 
 a::after {
     text-decoration: none;
+}
+
+a:active {
+    font-weight: bold;
 }
 
 img {
