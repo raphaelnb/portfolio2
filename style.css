@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 .wrapper {
     display: flex;
@@ -13,21 +16,61 @@ header {
     height: 100vh;
     padding-top: 252px;
     padding-left: 40px;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 16px;*/
+    position: fixed;
     background-color: #3C3A3A;
     color: #fff;
     text-decoration: none;
 }
 
+.linksHeader {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
 .content {
+    background-color: #4A4848;
+    width: 100%;
+}
+
+#sessaoPrincipal {
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 317px;
+    max-width: 700px;
+}
+
+.conteudoPag {
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    margin-left: 277px;
+    left: 0;
+    bottom: 0;
+    background-color: #333231;
+    position: fixed;
 }
 
 .sobreMim {
-    max-width: 700px;
+    
+}
+
+.linksContato {
+    display: flex;
+    flex-direction: row;
+}
+
+.caixaContato {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
 }
 
 a {
