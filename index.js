@@ -18,6 +18,9 @@ document.getElementById("linkedinRodape").onclick = function () {
     window.open("https://www.linkedin.com/in/raphael-brandão-969281225/")
 }
 
+
+// Formuário e localStorage
+
 form.addEventListener("submit", (evento) => {
     evento.preventDefault()
 
@@ -26,6 +29,10 @@ form.addEventListener("submit", (evento) => {
     const msg = evento.target.elements['msg']
 
     novaMensagem(nome.value, email.value, msg.value)
+
+    nome.value = ""
+    email.value = ""
+    msg.value = ""
 })
 
 function novaMensagem(nome, email, msg) {
@@ -38,4 +45,9 @@ function novaMensagem(nome, email, msg) {
     itemsForm.push(msgAtual)
 
     localStorage.setItem("item", JSON.stringify(itemsForm))
+}
+
+// Botão para deletar todas mensagens do localStorage
+document.getElementById('deleteButton').onclick = function () {
+    localStorage.clear()
 }
