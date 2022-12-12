@@ -1,4 +1,7 @@
+const itemsForm = []
+const form = document.getElementById("itemForm")
 
+// Links 
 document.getElementById("contatoLinkedin").onclick = function () {
     window.open("https://www.linkedin.com/in/raphael-brandão-969281225/")
 }
@@ -14,3 +17,8 @@ document.getElementById("githubRodape").onclick = function () {
 document.getElementById("linkedinRodape").onclick = function () {
     window.open("https://www.linkedin.com/in/raphael-brandão-969281225/")
 }
+
+form.addEventListener("submit", (evento) => {
+    evento.preventDefault()
+
+})
